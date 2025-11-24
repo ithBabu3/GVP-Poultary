@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GVP Poultry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/gvp-style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-danger" href="#home">
+                <i class="bi bi-egg-fried"></i> GVP Poultry
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-ta="முகப்பு" data-en="Home">முகப்பு</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chickens" data-ta="கோழிகள்" data-en="Chickens">கோழிகள்</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-ta="எங்களைப் பற்றி" data-en="About">எங்களைப் பற்றி</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#media" data-ta="ஊடகம்" data-en="Media">ஊடகம்</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location" data-ta="இடம்" data-en="Location">இடம்</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="btn btn-sm btn-outline-danger" id="langToggle" onclick="toggleLanguage()">
+                            <span id="langBtn">தமிழ் | ENG</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-danger mb-3" data-ta="GVP கோழிப்பண்ணைக்கு வரவேற்கிறோம்" data-en="Welcome to GVP Poultry">
+                        GVP கோழிப்பண்ணைக்கு வரவேற்கிறோம்
+                    </h1>
+                    <p class="lead mb-4" data-ta="தரமான கோழி வளர்ப்பில் உங்கள் நம்பகமான கூட்டாளி" data-en="Your trusted partner in quality poultry farming">
+                        தரமான கோழி வளர்ப்பில் உங்கள் நம்பகமான கூட்டாளி
+                    </p>
+                    <p data-ta="GVP கோழிப்பண்ணையில், நாங்கள் ஆரோக்கியமான மற்றும் உயர்தரமான கோழிகளை வளர்ப்பதில் நிபுணத்துவம் பெற்றுள்ளோம். சிறந்த கோழி இனங்கள் மற்றும் நவீன வளர்ப்பு முறைகளுடன், உங்களுக்கு சிறந்த சேவையை வழங்குகிறோம்." data-en="At GVP Poultry, we specialize in raising healthy and high-quality chickens. With the best chicken breeds and modern farming methods, we provide you with excellent service.">
+                        GVP கோழிப்பண்ணையில், நாங்கள் ஆரோக்கியமான மற்றும் உயர்தரமான கோழிகளை வளர்ப்பதில் நிபுணத்துவம் பெற்றுள்ளோம். சிறந்த கோழி இனங்கள் மற்றும் நவீன வளர்ப்பு முறைகளுடன், உங்களுக்கு சிறந்த சேவையை வழங்குகிறோம்.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/1300355/pexels-photo-1300355.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Poultry Farm" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chickens" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold text-danger mb-5" data-ta="எங்கள் கோழி இனங்கள்" data-en="Our Chicken Breeds">
+                எங்கள் கோழி இனங்கள்
+            </h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/5369952/pexels-photo-5369952.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Broiler">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="பிராய்லர் கோழி" data-en="Broiler Chicken">பிராய்லர் கோழி</h5>
+                            <p class="card-text" data-ta="வேகமாக வளரும் மற்றும் இறைச்சி உற்பத்திக்கு சிறந்தது. 6-7 வாரங்களில் சந்தைக்கு தயார்." data-en="Fast-growing and excellent for meat production. Market-ready in 6-7 weeks.">
+                                வேகமாக வளரும் மற்றும் இறைச்சி உற்பத்திக்கு சிறந்தது. 6-7 வாரங்களில் சந்தைக்கு தயார்.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/1422137/pexels-photo-1422137.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Layer">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="லேயர் கோழி" data-en="Layer Chicken">லேயர் கோழி</h5>
+                            <p class="card-text" data-ta="முட்டை உற்பத்திக்கு சிறந்தது. ஆண்டுக்கு 280-320 முட்டைகள் வரை இடும்." data-en="Excellent for egg production. Lays 280-320 eggs per year.">
+                                முட்டை உற்பத்திக்கு சிறந்தது. ஆண்டுக்கு 280-320 முட்டைகள் வரை இடும்.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/1202254/pexels-photo-1202254.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Country Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="நாட்டுக் கோழி" data-en="Country Chicken">நாட்டுக் கோழி</h5>
+                            <p class="card-text" data-ta="பாரம்பரிய இனம், சுவையான இறைச்சி மற்றும் இயற்கை முட்டைகள். நோய் எதிர்ப்பு சக்தி அதிகம்." data-en="Traditional breed with tasty meat and organic eggs. High disease resistance.">
+                                பாரம்பரிய இனம், சுவையான இறைச்சி மற்றும் இயற்கை முட்டைகள். நோய் எதிர்ப்பு சக்தி அதிகம்.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/7210754/pexels-photo-7210754.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Kadaknath">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="கடக்நாத் கோழி" data-en="Kadaknath Chicken">கடக்நாத் கோழி</h5>
+                            <p class="card-text" data-ta="கருப்பு இறைச்சி கொண்ட சிறப்பு இனம். புரதம் அதிகம், கொழுப்பு குறைவு." data-en="Special breed with black meat. High protein, low fat.">
+                                கருப்பு இறைச்சி கொண்ட சிறப்பு இனம். புரதம் அதிகம், கொழுப்பு குறைவு.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/1202255/pexels-photo-1202255.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Aseel">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="அசீல் கோழி" data-en="Aseel Chicken">அசீல் கோழி</h5>
+                            <p class="card-text" data-ta="பலமான மற்றும் ஆரோக்கியமான இனம். சிறந்த இறைச்சி தரம்." data-en="Strong and healthy breed. Excellent meat quality.">
+                                பலமான மற்றும் ஆரோக்கியமான இனம். சிறந்த இறைச்சி தரம்.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm chicken-card">
+                        <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Rhode Island Red">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="ரோட் ஐலண்ட் ரெட்" data-en="Rhode Island Red">ரோட் ஐலண்ட் ரெட்</h5>
+                            <p class="card-text" data-ta="இரட்டை நோக்கத்திற்கான இனம். நல்ல முட்டை மற்றும் இறைச்சி உற்பத்தி." data-en="Dual-purpose breed. Good egg and meat production.">
+                                இரட்டை நோக்கத்திற்கான இனம். நல்ல முட்டை மற்றும் இறைச்சி உற்பத்தி.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.pexels.com/photos/1274236/pexels-photo-1274236.jpeg?auto=compress&cs=tinysrgb&w=800" alt="About Us" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-danger mb-4" data-ta="எங்களைப் பற்றி" data-en="About Us">எங்களைப் பற்றி</h2>
+                    <p data-ta="GVP கோழிப்பண்ணை என்பது தரமான கோழி வளர்ப்பில் முன்னணியில் உள்ள ஒரு நிறுவனம். பல ஆண்டுகளாக, நாங்கள் ஆரோக்கியமான மற்றும் உயர்தரமான கோழிகளை வளர்ப்பதில் அர்ப்பணிப்புடன் செயல்பட்டு வருகிறோம்." data-en="GVP Poultry is a leading organization in quality poultry farming. For many years, we have been dedicated to raising healthy and high-quality chickens.">
+                        GVP கோழிப்பண்ணை என்பது தரமான கோழி வளர்ப்பில் முன்னணியில் உள்ள ஒரு நிறுவனம். பல ஆண்டுகளாக, நாங்கள் ஆரோக்கியமான மற்றும் உயர்தரமான கோழிகளை வளர்ப்பதில் அர்ப்பணிப்புடன் செயல்பட்டு வருகிறோம்.
+                    </p>
+                    <h5 class="text-danger mt-4" data-ta="எங்கள் சிறப்பம்சங்கள்:" data-en="Our Highlights:">எங்கள் சிறப்பம்சங்கள்:</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i><span data-ta="நவீன வளர்ப்பு முறைகள்" data-en="Modern farming methods">நவீன வளர்ப்பு முறைகள்</span></li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i><span data-ta="ஆரோக்கியமான மற்றும் சுத்தமான சூழல்" data-en="Healthy and clean environment">ஆரோக்கியமான மற்றும் சுத்தமான சூழல்</span></li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i><span data-ta="சிறந்த தரமான உணவு" data-en="High-quality feed">சிறந்த தரமான உணவு</span></li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i><span data-ta="கால்நடை மருத்துவ கண்காணிப்பு" data-en="Veterinary monitoring">கால்நடை மருத்துவ கண்காணிப்பு</span></li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i><span data-ta="வாடிக்கையாளர் திருப்தி" data-en="Customer satisfaction">வாடிக்கையாளர் திருப்தி</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="media" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold text-danger mb-5" data-ta="ஊடக காட்சிகள்" data-en="Media Gallery">ஊடக காட்சிகள்</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Poultry Farm Video 1" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" data-ta="கோழிப்பண்ணை சுற்றுப்பயணம்" data-en="Poultry Farm Tour">கோழிப்பண்ணை சுற்றுப்பயணம்</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Poultry Farm Video 2" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" data-ta="கோழி வளர்ப்பு முறைகள்" data-en="Chicken Farming Methods">கோழி வளர்ப்பு முறைகள்</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="Poultry Farm Video 3" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" data-ta="நவீன கோழிப்பண்ணை தொழில்நுட்பம்" data-en="Modern Poultry Technology">நவீன கோழிப்பண்ணை தொழில்நுட்பம்</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-danger mb-5" data-ta="எங்கள் இடம்" data-en="Our Location">எங்கள் இடம்</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger" data-ta="தொடர்பு விவரங்கள்" data-en="Contact Details">தொடர்பு விவரங்கள்</h5>
+                            <div class="mt-4">
+                                <p class="mb-3">
+                                    <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                                    <strong data-ta="முகவரி:" data-en="Address:">முகவரி:</strong><br>
+                                    <span class="ms-4" data-ta="GVP கோழிப்பண்ணை, கிராமம், மாவட்டம், தமிழ்நாடு - 600001" data-en="GVP Poultry, Village, District, Tamil Nadu - 600001">GVP கோழிப்பண்ணை, கிராமம், மாவட்டம், தமிழ்நாடு - 600001</span>
+                                </p>
+                                <p class="mb-3">
+                                    <i class="bi bi-telephone-fill text-danger me-2"></i>
+                                    <strong data-ta="தொலைபேசி:" data-en="Phone:">தொலைபேசி:</strong> +91 98765 43210
+                                </p>
+                                <p class="mb-3">
+                                    <i class="bi bi-envelope-fill text-danger me-2"></i>
+                                    <strong data-ta="மின்னஞ்சல்:" data-en="Email:">மின்னஞ்சல்:</strong> info@gvppoultry.com
+                                </p>
+                                <p class="mb-3">
+                                    <i class="bi bi-clock-fill text-danger me-2"></i>
+                                    <strong data-ta="நேரம்:" data-en="Hours:">நேரம்:</strong><br>
+                                    <span class="ms-4" data-ta="திங்கள் - சனி: காலை 8:00 - மாலை 6:00" data-en="Monday - Saturday: 8:00 AM - 6:00 PM">திங்கள் - சனி: காலை 8:00 - மாலை 6:00</span><br>
+                                    <span class="ms-4" data-ta="ஞாயிறு: மூடப்பட்டது" data-en="Sunday: Closed">ஞாயிறு: மூடப்பட்டது</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body p-0">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8423639076826!2d80.22086931482165!3d13.047487990810433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267b7c7f3b7e1%3A0x3e8e3e3e3e3e3e3e!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890123" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="rounded"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-danger text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0" data-ta="© 2025 GVP கோழிப்பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை." data-en="© 2025 GVP Poultry. All rights reserved.">
+                © 2025 GVP கோழிப்பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/gvp-script.js"></script>
+</body>
+</html>
