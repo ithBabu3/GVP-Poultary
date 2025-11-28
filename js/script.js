@@ -9,11 +9,11 @@ const chickenData = {
     uses: 'உயர்ந்த ரீதிக்கான இறைச்சி, சிறந்த ஊட்ட மூல்ய',
     usesEn: 'Premium meat, superior nutritional value',
     price: '₹300-350 per kg',
-    image: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'assets/images/kadakanath.webp'
   },
   vanakozhi: {
-    title: 'வன கோழி',
-    titleEn: 'Vanakozhi',
+    title: 'வான்கோழி ',
+    titleEn: 'Vankozhi',
     description: 'காட்டுச்சூழலுக்கு ஏற்ற நாட்டு இனம், ஆரோக்கியமான இறைச்சி',
     descriptionEn: 'Wild-adapted domestic breed, healthy and strong',
     specialty: 'நாட்டு இனம், நோய் எதிர்ப்பு சக்தி அதிகம்',
@@ -21,7 +21,7 @@ const chickenData = {
     uses: 'இறைச்சி மற்றும் முட்டை வகை',
     usesEn: 'Meat and dual-purpose breed',
     price: '₹200-250 per kg',
-    image: 'https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'assets/images/vaankozhi.jpg'
   },
   nattu: {
     title: 'நாட்டு கோழி (அசல்)',
@@ -33,7 +33,7 @@ const chickenData = {
     uses: 'மாறுபட்ட பயன்பாடு - இறைச்சி மற்றும் முட்டை',
     usesEn: 'Dual-purpose - meat and eggs',
     price: '₹180-220 per kg',
-    image: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'assets/images/seval.jpeg'
   },
   peruvadai: {
     title: 'பெருவடை கோழி',
@@ -45,7 +45,7 @@ const chickenData = {
     uses: 'சிறந்த இறைச்சி வகை',
     usesEn: 'Excellent meat breed',
     price: '₹250-300 per kg',
-    image: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image:  'assets/images/PeruvadaiKozhi.jpeg'
   },
   sonali: {
     title: 'சோனாலி கோழி',
@@ -57,7 +57,7 @@ const chickenData = {
     uses: 'கொட்டாரம் மற்றும் வணிக பயன்பாடு',
     usesEn: 'Farm and commercial use',
     price: '₹220-270 per kg',
-    image: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'assets/images/Sonali.jpeg'
   },
   eggs: {
     title: 'நாட்டு முட்டைகள்',
@@ -69,7 +69,7 @@ const chickenData = {
     uses: 'ஆரோக்கிய உணவு',
     usesEn: 'Healthy food',
     price: '₹8-10 per egg',
-    image: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'assets/images/egg.jpeg'
   }
 };
 
