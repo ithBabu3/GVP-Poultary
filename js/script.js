@@ -9,7 +9,7 @@ const chickenData = {
     uses: 'உயர்ந்த ரீதிக்கான இறைச்சி, சிறந்த ஊட்ட மூல்ய',
     usesEn: 'Premium meat, superior nutritional value',
     price: '₹300-350 per kg',
-    image: 'assets/images/kadakanath.webp'
+    image: 'assets/images/Kadakanath.webp'
   },
   vanakozhi: {
     title: 'வான்கோழி ',
