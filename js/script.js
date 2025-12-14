@@ -21,7 +21,7 @@ const chickenData = {
     uses: 'இறைச்சி மற்றும் முட்டை வகை',
     usesEn: 'Meat and dual-purpose breed',
     price: '₹200-250 per kg',
-    image: 'assets/images/VaanKozhi.jpg'
+    image: 'https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%BE%E0%AE%A9%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%B4%E0%AE%BF'
   },
   nattu: {
     title: 'நாட்டு கோழி (அசல்)',
