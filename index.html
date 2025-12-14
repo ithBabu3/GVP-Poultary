@@ -50,7 +50,7 @@
             <a class="nav-link" href="#chickens" data-ta="கோழிகள்" data-en="Chickens">கோழிகள்</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about" data-ta="எங்களை பற்றி" data-en="About">நம்மைப் பற்றி</a>
+            <a class="nav-link" href="#about" data-ta="எங்களை பற்றி" data-en="About">எங்களை பற்றி</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#media" data-ta="மீடியா" data-en="Media">மீடியா</a>
@@ -97,27 +97,64 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about-section py-5">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <div class="about-image">
-            <img src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="GVP Farm" class="img-fluid rounded-4 shadow-lg">
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- About Images Carousel -->
+      <div class="col-lg-6">
+        <div id="aboutCarousel" class="carousel slide rounded-4 shadow-lg" data-bs-ride="carousel">
+
+          <!-- Carousel indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <h2 class="section-title" data-ta="நம்மைப் பற்றி" data-en="About Us">நம்மைப் பற்றி</h2>
-          <p class="about-text" data-ta="GVP கோழி பண்ணை 20 ஆண்டுகளுக்கும் மேலாக தமிழ்நாட்டில் கோழி வளர்ப்பு இயல்பாய் நடத்திக் கொண்டிருக்கிறது।" data-en="GVP Poultry has been serving Tamil Nadu for over 20 years with quality farming practices.">GVP கோழி பண்ணை 20 ஆண்டுகளுக்கும் மேலாக தமிழ்நாட்டில் கோழி வளர்ப்பு இயல்பாய் நடத்திக் கொண்டிருக்கிறது।</p>
-          <ul class="about-features">
-            <li><i class="fas fa-check-circle"></i> <span data-ta="100% நோயற்ற நிலை" data-en="100% Disease-Free">100% நோயற்ற நிலை</span></li>
-            <li><i class="fas fa-check-circle"></i> <span data-ta="உயர்தர உணவு" data-en="Premium Quality Feed">உயர்தர உணவு</span></li>
-            <li><i class="fas fa-check-circle"></i> <span data-ta="சரியான பராமரிப்பு" data-en="Proper Care & Hygiene">சரியான பராமரிப்பு</span></li>
-            <li><i class="fas fa-check-circle"></i> <span data-ta="விரைவ ஆறாம வழங்கல்" data-en="Fast Delivery">விரைவ ஆறாம வழங்கல்</span></li>
-          </ul>
+
+          <!-- Carousel inner -->
+          <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+              <img src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100 rounded-4" alt="GVP Farm 1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.pexels.com/photos/4145197/pexels-photo-4145197.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100 rounded-4" alt="GVP Farm 2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100 rounded-4" alt="GVP Farm 3">
+            </div>
+          </div>
+
+          <!-- Carousel controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
         </div>
       </div>
+
+      <!-- About Text Content -->
+      <div class="col-lg-6">
+        <h2 class="section-title" data-ta="எங்களை பற்றி" data-en="About Us">எங்களை பற்றி</h2>
+        <p class="about-text" data-ta="GVP கோழி பண்ணை 2 ஆண்டுகளுக்கும் மேலாக தமிழ்நாட்டில் கோழி வளர்ப்பு இயல்பாய் நடத்திக் கொண்டிருக்கிறது।" data-en="GVP Poultry has been serving Tamil Nadu for over 2 years with quality farming practices.">
+          GVP கோழி பண்ணை 2 ஆண்டுகளுக்கும் மேலாக தமிழ்நாட்டில் கோழி வளர்ப்பு இயல்பாய் நடத்திக் கொண்டிருக்கிறது।
+        </p>
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle"></i> <span data-ta="100% நோயற்ற நிலை" data-en="100% Disease-Free">100% நோயற்ற நிலை</span></li>
+          <li><i class="fas fa-check-circle"></i> <span data-ta="உயர்தர உணவு" data-en="Premium Quality Feed">உயர்தர உணவு</span></li>
+          <li><i class="fas fa-check-circle"></i> <span data-ta="சரியான பராமரிப்பு" data-en="Proper Care & Hygiene">சரியான பராமரிப்பு</span></li>
+          <li><i class="fas fa-check-circle"></i> <span data-ta="விரைவ ஆறாம வழங்கல்" data-en="Fast Delivery">விரைவ ஆறாம வழங்கல்</span></li>
+        </ul>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section py-5">
@@ -130,35 +167,38 @@
               <i class="fas fa-map-marker-alt"></i>
               <div>
                 <h5 data-ta="முகவரி" data-en="Address">முகவரி</h5>
-                <p data-ta="GVP கோழி பண்ணை, சென்னை, தமிழ்நாடு" data-en="GVP Poultry Farm, Chennai, Tamil Nadu">GVP கோழி பண்ணை, சென்னை, தமிழ்நாடு</p>
+                <p data-ta="GVP கோழி பண்ணை, மதுரை, தமிழ்நாடு" data-en="GVP Poultry Farm, Madurai, Tamil Nadu">GVP கோழி பண்ணை, சென்னை, தமிழ்நாடு</p>
               </div>
             </div>
             <div class="contact-item mb-4">
               <i class="fas fa-phone"></i>
               <div>
                 <h5 data-ta="தொலைபேசி" data-en="Phone">தொலைபேசி</h5>
-                <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                <p><a href="tel:+91 87781 50405">+91 87781 50405</a></p>
               </div>
             </div>
             <div class="contact-item mb-4">
               <i class="fas fa-envelope"></i>
               <div>
                 <h5 data-ta="மின்னஞ்சல்" data-en="Email">மின்னஞ்சல்</h5>
-                <p><a href="mailto:info@gvppoultry.com">info@gvppoultry.com</a></p>
+                <p><a href="mailto:vasanth@gmail.com">vasanth@gmail.com</a></p>
               </div>
             </div>
             <div class="contact-item">
               <i class="fas fa-clock"></i>
               <div>
                 <h5 data-ta="வேலையாள் நேரம்" data-en="Working Hours">வேலையாள் நேரம்</h5>
-                <p data-ta="தினமும் 8:00 AM - 6:00 PM" data-en="Daily 8:00 AM - 6:00 PM">தினமும் 8:00 AM - 6:00 PM</p>
+                <p data-ta="தினமும் : 05 AM - 11:00 PM" data-en="Daily 05:00 AM - 11:00 PM">தினமும் 05:00 AM - 11:00 PM</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="map-container rounded-4 overflow-hidden shadow-lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0221837262357!2d80.27156132346041!3d13.081436587224503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f5e5e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.484282738524!2d78.1596368!3d9.8778763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c50004602a27%3A0xfe5e3768f0d22d2e!2sGVP+Poultry+Farm!5e0!3m2!1sen!2sin!4v1700000000000"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </div>
@@ -194,7 +234,7 @@
       <div class="footer-divider"></div>
       <div class="row">
         <div class="col-12 text-center">
-          <p class="mb-3" data-ta="© 2024 GVP கோழி பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டுள்ளன।" data-en="© 2024 GVP Poultry. All rights reserved.">© 2024 GVP கோழி பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டுள்ளன।</p>
+          <p class="mb-3" data-ta="© 2026 GVP கோழி பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டுள்ளன।" data-en="© 2026 GVP Poultry. All rights reserved.">© 2026 GVP கோழி பண்ணை. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டுள்ளன।</p>
           <p class="developer-credit">
             <button class="btn btn-link text-decoration-none" data-bs-toggle="modal" data-bs-target="#developerModal">
               <span data-ta="Developed by Ajith Babu" data-en="Developed by Ajith Babu">Developed by Ajith Babu</span>
