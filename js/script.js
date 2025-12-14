@@ -9,7 +9,7 @@ const chickenData = {
     uses: 'உயர்ந்த ரீதிக்கான இறைச்சி, சிறந்த ஊட்ட மூல்ய',
     usesEn: 'Premium meat, superior nutritional value',
     price: '₹300-350 per kg',
-    image: './assets/images/Kadakanath.webp'
+    image: 'https://github.com/ithBabu3/GVP-Poultary/blob/main/assets/images/Kadakanath.webp?raw=true'
   },
   vanakozhi: {
     title: 'வான்கோழி ',
@@ -21,7 +21,7 @@ const chickenData = {
     uses: 'இறைச்சி மற்றும் முட்டை வகை',
     usesEn: 'Meat and dual-purpose breed',
     price: '₹200-250 per kg',
-    image: 'https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%BE%E0%AE%A9%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%B4%E0%AE%BF'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Wild_turkey_eastern_us.jpg'
   },
   nattu: {
     title: 'நாட்டு கோழி (அசல்)',
@@ -33,7 +33,7 @@ const chickenData = {
     uses: 'மாறுபட்ட பயன்பாடு - இறைச்சி மற்றும் முட்டை',
     usesEn: 'Dual-purpose - meat and eggs',
     price: '₹180-220 per kg',
-    image: './assets/images/seval.jpeg'
+    image: 'https://github.com/ithBabu3/GVP-Poultary/blob/main/assets/images/seval.jpeg?raw=true'
   },
   peruvadai: {
     title: 'பெருவடை கோழி',
@@ -45,7 +45,7 @@ const chickenData = {
     uses: 'சிறந்த இறைச்சி வகை',
     usesEn: 'Excellent meat breed',
     price: '₹250-300 per kg',
-    image:  './assets/images/PeruvadaiKozhi.jpeg'
+    image:  'https://github.com/ithBabu3/GVP-Poultary/blob/main/assets/images/PeruvadaiKozhi.jpeg?raw=true'
   },
   sonali: {
     title: 'சோனாலி கோழி',
@@ -57,7 +57,7 @@ const chickenData = {
     uses: 'கொட்டாரம் மற்றும் வணிக பயன்பாடு',
     usesEn: 'Farm and commercial use',
     price: '₹220-270 per kg',
-    image: './assets/images/Sonali.jpeg'
+    image: 'https://github.com/ithBabu3/GVP-Poultary/blob/main/assets/images/Sonali.jpeg?raw=true'
   },
   eggs: {
     title: 'நாட்டு முட்டைகள்',
@@ -69,7 +69,7 @@ const chickenData = {
     uses: 'ஆரோக்கிய உணவு',
     usesEn: 'Healthy food',
     price: '₹8-10 per egg',
-    image: './assets/images/egg.jpeg'
+    image: 'https://github.com/ithBabu3/GVP-Poultary/blob/main/assets/images/egg.jpeg?raw=true'
   }
 };
 
